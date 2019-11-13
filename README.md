@@ -29,7 +29,7 @@ URL Parameter inject test save on parameter.\<target\>.txt
 cat parameter.<target>.txt
 ```
 
-Result may be up to reach thousands.<br>
+Result may be up to reach thousands.(i just fix it today by remove duplicate paramater)<br>
 It takes a long time to test inject paramater.<br>
 So, you can open parameter.\<target\>.txt and choice some URL parameters you want.<br>
 Save in new your file.<br>
@@ -40,10 +40,3 @@ for x in `cat <your-file-choice-parameter>.txt`;do bash modules/inject.sh $x;don
 ```
 
 URL vulnerability will save on \<target\>.-posible-vuln.txt
-## Screenshot
-<img src="https://github.com/rouze-d/xarchive/blob/master/screenshot/01.png" width="880" height="400"/>
-<img src="https://github.com/rouze-d/xarchive/blob/master/screenshot/02.png" width="880" height="400"/>
-<img src="https://github.com/rouze-d/xarchive/blob/master/screenshot/03.png" width="880" height="400"/>
-<img src="https://github.com/rouze-d/xarchive/blob/master/screenshot/04.png" width="880" height="400"/>
-<img src="https://github.com/rouze-d/xarchive/blob/master/screenshot/05.png" width="880" height="400"/>
-<img src="https://github.com/rouze-d/xarchive/blob/master/screenshot/06.png" width="880" height="400"/>

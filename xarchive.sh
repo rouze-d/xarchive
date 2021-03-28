@@ -45,8 +45,8 @@ if [ -z $target ]; then
     exit
 fi
 
-ping -c 1 $target
-if [ "$?" != 1 ];then
+host $target | head -n1 | grep has > /dev/null
+if [ "$?" != 0 ];then
     clear
     echo "
   ┓ ┃  ┳━┓  ┳━┓  ┏━┓  ┳ ┳  o  ┓ ┳  ┳━┓

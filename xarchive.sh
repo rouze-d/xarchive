@@ -47,7 +47,6 @@ fi
 
 host $target | head -n1 | grep has > /dev/null
 if [ "$?" != 0 ];then
-    clear
     echo "
   ┓ ┃  ┳━┓  ┳━┓  ┏━┓  ┳ ┳  o  ┓ ┳  ┳━┓
   ┏╋┛  ┃━┫  ┃┳┛  ┃    ┃━┫  ┃  ┃┏┛  ┣━ 
@@ -62,7 +61,6 @@ if [ "$?" != 0 ];then
     exit 1
 fi
 
-clear
 #toilet -f smblock "           X a r c i v e " -w 100 | lolcat -p 0.7
 echo "
   ┓ ┃  ┳━┓  ┳━┓  ┏━┓  ┳ ┳  o  ┓ ┳  ┳━┓
